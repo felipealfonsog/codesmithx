@@ -42,4 +42,4 @@ function defineFirstArg(func, arg) {
   
   //console.log(subFrom20);
   
-  console.log(subtract(5)); // should log: 15
+  console.log(subtract); // should log: 15

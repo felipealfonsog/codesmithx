@@ -22,3 +22,7 @@ function defineFirstArg(func, arg) {
  //  const subFrom20 = defineFirstArg(subtract, 20);
   //console.log(subFrom20);
   //console.log(subFrom20(5)); // should log: 15
+
+
+
+  
