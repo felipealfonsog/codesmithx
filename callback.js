@@ -23,3 +23,15 @@ document.querySelector("#operar").addEventListener('click', function() {
         console.log('El resultado es ' + r);
     })
 })
+
+child.on('message', function(msg) {
+    console.log('Child said: ', msg); 
+});
+child.send("Cheers");
+
+// child js
+process.on('message', function(msg) {
+    console.log('Parent said: ', msg);
+    process.send("Cheers too");
+});
+
